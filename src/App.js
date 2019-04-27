@@ -14,7 +14,7 @@ class App extends Component {
           <Row>
             <Col size="md-12">
             <Container>
-              <Imagegrid></Imagegrid>
+              <Imagegrid image="./"></Imagegrid>
             </Container>
             </Col>
           </Row>
