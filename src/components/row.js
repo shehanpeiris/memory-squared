@@ -1,7 +1,10 @@
 import React from "react";
 
-function Row(props) {
-  return <div className="row" />;
-}
+function Row() {
+  return (
+    <div className="row">
+    </div>
+  );
+};
 
 export default Row;
