@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Container from "./components/Container";
-import Navbar from "./components/Navbar";
 import Imagegrid from './components/Imagegrid';
 import Jumbotron from './components/Jumbotron';
 
@@ -13,9 +12,10 @@ class App extends Component {
   };
 
   handleClick = image => {
-    this.setState({
-      clickedPicks: [...this.state.clickedPicks, image]
-    })
+    // this.setState({
+    //   clickedPicks: [...this.state.clickedPicks, image]
+    // })
+    console.log("Testing click", image);
   };
  
   // Define method to randomize the images following Fisher-Yates shuffle model
@@ -43,7 +43,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar />
         <Jumbotron></Jumbotron>
         <Container>
           <Imagegrid onClick={this.handleClick}></Imagegrid>              
