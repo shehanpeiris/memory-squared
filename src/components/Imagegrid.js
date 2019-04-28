@@ -1,12 +1,12 @@
 import React from "react";
-import images from "./../img";
+// import images from "./../img";
 
 
 
 function Imagegrid (props) {
   return (
     <div className="row col-md-12">
-      {images.map(image => (<img src={image.img} alt={image.name} key={image.id} onClick={()=>props.onClick(image)}/>))}
+      {props.images.map(image => (<img src={image.img} alt={image.name} key={image.id} onClick={()=>props.onClick(image)}/>))}
     </div>
   )
 }

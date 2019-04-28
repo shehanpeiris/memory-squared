@@ -9,7 +9,7 @@ import jerry_lucas from "./jerry_lucas.jpg";
 import kim_peek from "./kim_peek.jpeg";
 import leonhard_euler from "./leonhard_euler.jpg";
 import sean_mcvay from "./sean_mcvay.jpg";
-import sergei_rachmaninoff from "./sergei_rachmaninoff.jpg";
+import sergei_rachmaninoff from "./sergei_rachmaninoff.png";
 
 const images = [
     {
