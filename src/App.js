@@ -12,9 +12,17 @@ class App extends Component {
     clickedPicks: []
   };
 
+  updateHighScore = () => {
+    if (this.state.currentScore < this.state.highScore) {
+    } else {
+      this.setState({highScore: this.state.currentScore})
+    }
+  };
+
+
   // When user clicks on an image, this function will be called
   handleClick = image => {
-    // If user has already chosen the image in this game, reset scores
+    // If user has already chosen the image during this game, reset scores
     if (this.state.clickedPicks.includes(image.id)) {
       this.setState({
         clickedPicks: [],
@@ -24,8 +32,8 @@ class App extends Component {
     } else {
       this.setState({
         clickedPicks: [...this.state.clickedPicks, image.id],
-        currentScore: this.state.currentScore + 1
-      })
+        currentScore: this.state.currentScore + 1,
+      }, this.updateHighScore)
     };
   };
  
