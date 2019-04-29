@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/memory-squared/static/media/bran_stark.67926268.jpg"
   },
   {
-    "revision": "b1912f13c1a1e9002ef9",
+    "revision": "e769010232b8174856f5",
     "url": "/memory-squared/static/css/main.6e50e35e.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/memory-squared/static/media/teddy_roosevelt.400eb1dc.jpg"
   },
   {
-    "revision": "b1912f13c1a1e9002ef9",
-    "url": "/memory-squared/static/js/main.cc4e82d1.chunk.js"
+    "revision": "e769010232b8174856f5",
+    "url": "/memory-squared/static/js/main.f9858ddd.chunk.js"
   },
   {
     "revision": "182f20968f2ad4b00c9367746cfbb7cc",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/memory-squared/static/media/sergei_rachmaninoff.f4e93086.png"
   },
   {
-    "revision": "11e1775a5b6bfe2ad8162cd4de399f79",
+    "revision": "8c308769a042059961b552ef0a89cb81",
     "url": "/memory-squared/index.html"
   }
 ];
